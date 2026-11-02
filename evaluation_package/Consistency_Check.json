@@ -1,0 +1,237 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "Required file: 01_Project_Report/Project_Report.docx",
+      "passed": true,
+      "detail": "Present and nonempty"
+    },
+    {
+      "check": "Required file: 01_Project_Report/Project_Report.pdf",
+      "passed": true,
+      "detail": "Present and nonempty"
+    },
+    {
+      "check": "Required file: 02_Presentation/ML_Mini_Project_Presentation.pptx",
+      "passed": true,
+      "detail": "Present and nonempty"
+    },
+    {
+      "check": "Required file: 02_Presentation/Slide_Notes.md",
+      "passed": true,
+      "detail": "Present and nonempty"
+    },
+    {
+      "check": "Required file: 03_ML_Concepts/ML_Concepts_Explained.docx",
+      "passed": true,
+      "detail": "Present and nonempty"
+    },
+    {
+      "check": "Required file: 03_ML_Concepts/ML_Concepts_Explained.md",
+      "passed": true,
+      "detail": "Present and nonempty"
+    },
+    {
+      "check": "Required file: 04_Presentation_Script/Three_Member_Presentation_Script.docx",
+      "passed": true,
+      "detail": "Present and nonempty"
+    },
+    {
+      "check": "Required file: 04_Presentation_Script/Three_Member_Presentation_Script.md",
+      "passed": true,
+      "detail": "Present and nonempty"
+    },
+    {
+      "check": "Required file: 04_Presentation_Script/Member_1_Quick_Revision.md",
+      "passed": true,
+      "detail": "Present and nonempty"
+    },
+    {
+      "check": "Required file: 04_Presentation_Script/Member_2_Quick_Revision.md",
+      "passed": true,
+      "detail": "Present and nonempty"
+    },
+    {
+      "check": "Required file: 04_Presentation_Script/Member_3_Quick_Revision.md",
+      "passed": true,
+      "detail": "Present and nonempty"
+    },
+    {
+      "check": "Required file: 05_Experiments/Live_Experiments_and_Demonstrations.md",
+      "passed": true,
+      "detail": "Present and nonempty"
+    },
+    {
+      "check": "Required file: 05_Experiments/experiment_results.csv",
+      "passed": true,
+      "detail": "Present and nonempty"
+    },
+    {
+      "check": "Required file: 06_References/Verified_References.md",
+      "passed": true,
+      "detail": "Present and nonempty"
+    },
+    {
+      "check": "Required file: 06_References/Literature_Comparison.csv",
+      "passed": true,
+      "detail": "Present and nonempty"
+    },
+    {
+      "check": "DOCX parse: 01_Project_Report/Project_Report.docx",
+      "passed": true,
+      "detail": "68 top-level paragraphs"
+    },
+    {
+      "check": "DOCX parse: 03_ML_Concepts/ML_Concepts_Explained.docx",
+      "passed": true,
+      "detail": "709 top-level paragraphs"
+    },
+    {
+      "check": "DOCX parse: 04_Presentation_Script/Three_Member_Presentation_Script.docx",
+      "passed": true,
+      "detail": "291 top-level paragraphs"
+    },
+    {
+      "check": "PDF parse: 01_Project_Report/Project_Report.pdf",
+      "passed": true,
+      "detail": "8 pages"
+    },
+    {
+      "check": "PDF parse: 03_ML_Concepts/ML_Concepts_Explained.pdf",
+      "passed": true,
+      "detail": "23 pages"
+    },
+    {
+      "check": "PDF parse: 04_Presentation_Script/Three_Member_Presentation_Script.pdf",
+      "passed": true,
+      "detail": "15 pages"
+    },
+    {
+      "check": "Logistic Regression metrics",
+      "passed": true,
+      "detail": "Matches saved JSON and synthetic held-out table"
+    },
+    {
+      "check": "Decision Tree metrics",
+      "passed": true,
+      "detail": "Matches saved JSON and synthetic held-out table"
+    },
+    {
+      "check": "Random Forest metrics",
+      "passed": true,
+      "detail": "Matches saved JSON and synthetic held-out table"
+    },
+    {
+      "check": "Dataset sizes",
+      "passed": true,
+      "detail": "200 synthetic CSV rows; 40 duplicate rows removed; 160 unique examples (80 human-style, 80 AI-style); 20 synthetic problem groups; 96 training, 32 validation, 32 test samples."
+    },
+    {
+      "check": "Confusion matrix",
+      "passed": true,
+      "detail": "Rows actual and columns predicted: [human,ai]"
+    },
+    {
+      "check": "Handbook viva count",
+      "passed": true,
+      "detail": "99 distinct questions"
+    },
+    {
+      "check": "Logistic numerical example",
+      "passed": true,
+      "detail": "Recomputed sigmoid and weighted score independently"
+    },
+    {
+      "check": "Manual metric example",
+      "passed": true,
+      "detail": "Teaching counts: TP=8, TN=9, FP=3, FN=2"
+    },
+    {
+      "check": "TF-IDF numerical example",
+      "passed": true,
+      "detail": "Smoothed IDF example independently recomputed"
+    },
+    {
+      "check": "Gini numerical example",
+      "passed": true,
+      "detail": "3:1 node impurity independently recomputed"
+    },
+    {
+      "check": "Member 1 revision sheet is one page",
+      "passed": true,
+      "detail": "Word-exported PDF page count"
+    },
+    {
+      "check": "Member 2 revision sheet is one page",
+      "passed": true,
+      "detail": "Word-exported PDF page count"
+    },
+    {
+      "check": "Member 3 revision sheet is one page",
+      "passed": true,
+      "detail": "Word-exported PDF page count"
+    },
+    {
+      "check": "Additional viva preparation",
+      "passed": true,
+      "detail": "30 general + 20 ML + 15 numerical + 15 implementation + 10 reliability"
+    },
+    {
+      "check": "Additional question titles are unique",
+      "passed": true,
+      "detail": "No repeated question titles within the 90-question preparation set"
+    },
+    {
+      "check": "Speaker division",
+      "passed": true,
+      "detail": "Six slides per member; 45-second slots, approximately 4.5 minutes each"
+    },
+    {
+      "check": "PPTX slide count",
+      "passed": true,
+      "detail": "18 editable slides"
+    },
+    {
+      "check": "PPTX speaker notes",
+      "passed": true,
+      "detail": "All 18 slides contain notes"
+    },
+    {
+      "check": "Model terminology: 01_Project_Report/Project_Report.md",
+      "passed": true,
+      "detail": "All three implemented model names included"
+    },
+    {
+      "check": "Scope disclosure: 01_Project_Report/Project_Report.md",
+      "passed": true,
+      "detail": "Synthetic scope explicitly stated"
+    },
+    {
+      "check": "Model terminology: 03_ML_Concepts/ML_Concepts_Explained.md",
+      "passed": true,
+      "detail": "All three implemented model names included"
+    },
+    {
+      "check": "Scope disclosure: 03_ML_Concepts/ML_Concepts_Explained.md",
+      "passed": true,
+      "detail": "Synthetic scope explicitly stated"
+    },
+    {
+      "check": "Model terminology: 04_Presentation_Script/Three_Member_Presentation_Script.md",
+      "passed": true,
+      "detail": "All three implemented model names included"
+    },
+    {
+      "check": "Scope disclosure: 04_Presentation_Script/Three_Member_Presentation_Script.md",
+      "passed": true,
+      "detail": "Synthetic scope explicitly stated"
+    }
+  ],
+  "known_gaps": [
+    "Faculty guide placeholder",
+    "20\u201325 qualifying indexed journal papers not fully verified",
+    "Real-world detection performance unvalidated"
+  ],
+  "presentation_finalizer_receipt": ".build/presentation_validation_v3.json",
+  "native_application_verification": "Word opened/exported all three DOCX files; PowerPoint opened 18 slides and exported native previews. Final visual review performed separately."
+}

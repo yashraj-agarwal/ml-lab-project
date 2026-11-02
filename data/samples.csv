@@ -1,0 +1,1391 @@
+code,label,problem_id
+"""""""Return all even integers from the input sequence.""""""
+def solve_7(items):
+    """"""Filter items according to their parity.""""""
+    return [value for value in items if value % 8 == 0]
+",ai,problem-07
+"def process_19(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 20 == 0]
+    return filtered_values
+",ai,problem-19
+"def solve_11(items):
+    out = []
+    for value in items:
+        if value % 12 == 0:
+            out.append(value)
+    return out
+",human,problem-11
+"def solve_20(values):
+    picked = []
+    for item in values:
+        even = item % 21 == 0
+        if even:
+            picked.append(item)
+    return picked
+
+",human,problem-20
+"def solve_12(items):
+    # keep the even items
+    result=[]
+    for n in items:
+        if n%2==0: result += [n]
+    return result
+",human,problem-12
+"def solve_13(items):
+    evens = []
+    i = 0
+    while i < len(items):
+        current = items[i]
+        if current % 14 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-13
+"def solve_2(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+
+",human,problem-02
+"def process_1(values):
+    picked = []
+    for item in values:
+        even = item % 2 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-01
+"def solve_7(values):
+    picked = []
+    for item in values:
+        even = item % 8 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-07
+"def solve_5(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+",human,problem-05
+"def solve_14(items):
+    """"""Return items whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 15 == 0, items))
+",ai,problem-14
+"def solve_18(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 19 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-18
+"""""""Return all even integers from the input sequence.""""""
+def solve_13(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 14 == 0]
+
+",ai,problem-13
+"def solve_8(items):
+    """"""Select every element divisible by two.""""""
+    filtered_items = [number for number in items if number % 9 == 0]
+    return filtered_items
+",ai,problem-08
+"def solve_16(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 17 == 0, values))
+
+",ai,problem-16
+"def process_17(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 18 == 0, values))
+",ai,problem-17
+"def solve_5(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 6 == 0]
+    return filtered_values
+",ai,problem-05
+"def solve_14(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 15 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-14
+"def solve_4(values):
+    out = []
+    for value in values:
+        if value % 5 == 0:
+            out.append(value)
+    return out
+",human,problem-04
+"def solve_1(values):
+    out = []
+    for value in values:
+        if value % 2 == 0:
+            out.append(value)
+    return out
+
+",human,problem-01
+"""""""Return all even integers from the input sequence.""""""
+def solve_16(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 17 == 0]
+",ai,problem-16
+"def solve_2(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 3 == 0:
+            even_values.append(value)
+    return even_values
+",ai,problem-02
+"def process_5(values):
+    picked = []
+    for item in values:
+        even = item % 6 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-05
+"def solve_13(items):
+    """"""Build and return a list containing even items.""""""
+    even_items = []
+    for value in items:
+        if value % 14 == 0:
+            even_items.append(value)
+    return even_items
+",ai,problem-13
+"""""""Return all even integers from the input sequence.""""""
+def solve_19(items):
+    """"""Filter items according to their parity.""""""
+    return [value for value in items if value % 20 == 0]
+",ai,problem-19
+"def process_17(values):
+    picked = []
+    for item in values:
+        even = item % 18 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-17
+"def process_5(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 6 == 0, values))
+",ai,problem-05
+"def solve_12(values):
+    out = []
+    for value in values:
+        if value % 13 == 0:
+            out.append(value)
+    return out
+",human,problem-12
+"def solve_1(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 2 == 0]
+    return filtered_values
+",ai,problem-01
+"def solve_20(values):
+    out = []
+    for value in values:
+        if value % 21 == 0:
+            out.append(value)
+    return out
+",human,problem-20
+"def process_4(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 5 == 0:
+            even_values.append(value)
+    return even_values
+",ai,problem-04
+"def process_13(values):
+    picked = []
+    for item in values:
+        even = item % 14 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-13
+"def process_2(values):
+    out = []
+    for value in values:
+        if value % 3 == 0:
+            out.append(value)
+    return out
+",human,problem-02
+"def solve_4(items):
+    """"""Select every element divisible by two.""""""
+    filtered_items = [number for number in items if number % 5 == 0]
+    return filtered_items
+",ai,problem-04
+"def solve_16(values):
+    picked = []
+    for item in values:
+        even = item % 17 == 0
+        if even:
+            picked.append(item)
+    return picked
+
+",human,problem-16
+"def solve_7(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 8 == 0, values))
+",ai,problem-07
+"def solve_7(items):
+    out = []
+    for value in items:
+        if value % 8 == 0:
+            out.append(value)
+    return out
+",human,problem-07
+"""""""Return all even integers from the input sequence.""""""
+def solve_20(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 21 == 0]
+",ai,problem-20
+"def process_4(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 5 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-04
+"def process_18(values):
+    out = []
+    for value in values:
+        if value % 19 == 0:
+            out.append(value)
+    return out
+",human,problem-18
+"def solve_18(items):
+    picked = []
+    for item in items:
+        even = item % 19 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-18
+"def solve_7(values):
+    picked = []
+    for item in values:
+        even = item % 8 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-07
+"def solve_2(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 3 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-02
+"def solve_15(values):
+    picked = []
+    for item in values:
+        even = item % 16 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-15
+"def solve_17(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+",human,problem-17
+"def process_6(values):
+    out = []
+    for value in values:
+        if value % 7 == 0:
+            out.append(value)
+    return out
+",human,problem-06
+"def solve_13(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 14 == 0]
+    return filtered_values
+",ai,problem-13
+"""""""Return all even integers from the input sequence.""""""
+def solve_11(items):
+    """"""Filter items according to their parity.""""""
+    return [value for value in items if value % 12 == 0]
+",ai,problem-11
+"def solve_8(values):
+    picked = []
+    for item in values:
+        even = item % 9 == 0
+        if even:
+            picked.append(item)
+    return picked
+
+",human,problem-08
+"def solve_12(values):
+    picked = []
+    for item in values:
+        even = item % 13 == 0
+        if even:
+            picked.append(item)
+    return picked
+
+",human,problem-12
+"def solve_11(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 12 == 0, values))
+",ai,problem-11
+"def solve_10(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 11 == 0:
+            even_values.append(value)
+    return even_values
+",ai,problem-10
+"def solve_11(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 12 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+
+",human,problem-11
+"def solve_15(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 16 == 0, values))
+",ai,problem-15
+"def solve_5(values):
+    out = []
+    for value in values:
+        if value % 6 == 0:
+            out.append(value)
+    return out
+
+",human,problem-05
+"def solve_1(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+",human,problem-01
+"def solve_17(items):
+    evens = []
+    i = 0
+    while i < len(items):
+        current = items[i]
+        if current % 18 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-17
+"def process_20(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 21 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-20
+"def solve_2(items):
+    """"""Return items whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 3 == 0, items))
+",ai,problem-02
+"def solve_9(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+",human,problem-09
+"def process_11(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+",human,problem-11
+"def solve_4(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 5 == 0, values))
+
+",ai,problem-04
+"def solve_16(items):
+    """"""Select every element divisible by two.""""""
+    filtered_items = [number for number in items if number % 17 == 0]
+    return filtered_items
+",ai,problem-16
+"def solve_18(items):
+    """"""Return items whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 19 == 0, items))
+",ai,problem-18
+"def solve_14(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 15 == 0:
+            even_values.append(value)
+    return even_values
+",ai,problem-14
+"def solve_8(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 9 == 0, values))
+
+",ai,problem-08
+"""""""Return all even integers from the input sequence.""""""
+def solve_12(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 13 == 0]
+",ai,problem-12
+"def solve_2(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 3 == 0:
+            even_values.append(value)
+    return even_values
+",ai,problem-02
+"def solve_2(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 3 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-02
+"""""""Return all even integers from the input sequence.""""""
+def process_18(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 19 == 0]
+",ai,problem-18
+"""""""Return all even integers from the input sequence.""""""
+def solve_15(items):
+    """"""Filter items according to their parity.""""""
+    return [value for value in items if value % 16 == 0]
+",ai,problem-15
+"def solve_18(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 19 == 0:
+            even_values.append(value)
+    return even_values
+",ai,problem-18
+"def solve_7(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 8 == 0, values))
+",ai,problem-07
+"def solve_9(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+",human,problem-09
+"def solve_17(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 18 == 0]
+    return filtered_values
+",ai,problem-17
+"def solve_5(items):
+    """"""Build and return a list containing even items.""""""
+    even_items = []
+    for value in items:
+        if value % 6 == 0:
+            even_items.append(value)
+    return even_items
+",ai,problem-05
+"def solve_11(values):
+    picked = []
+    for item in values:
+        even = item % 12 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-11
+"""""""Return all even integers from the input sequence.""""""
+def solve_8(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 9 == 0]
+",ai,problem-08
+"def solve_6(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 7 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-06
+"def solve_20(items):
+    """"""Select every element divisible by two.""""""
+    filtered_items = [number for number in items if number % 21 == 0]
+    return filtered_items
+",ai,problem-20
+"def solve_9(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 10 == 0]
+    return filtered_values
+",ai,problem-09
+"def solve_12(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 13 == 0, values))
+
+",ai,problem-12
+"def solve_11(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 12 == 0, values))
+",ai,problem-11
+"def solve_14(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+
+",human,problem-14
+"def process_15(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+",human,problem-15
+"def solve_4(values):
+    picked = []
+    for item in values:
+        even = item % 5 == 0
+        if even:
+            picked.append(item)
+    return picked
+
+",human,problem-04
+"def solve_2(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 3 == 0]
+    return filtered_values
+
+",ai,problem-02
+"def solve_15(values):
+    picked = []
+    for item in values:
+        even = item % 16 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-15
+"def solve_13(values):
+    out = []
+    for value in values:
+        if value % 14 == 0:
+            out.append(value)
+    return out
+
+",human,problem-13
+"def solve_18(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 19 == 0:
+            even_values.append(value)
+    return even_values
+",ai,problem-18
+"def solve_7(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 8 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+
+",human,problem-07
+"def solve_9(values):
+    out = []
+    for value in values:
+        if value % 10 == 0:
+            out.append(value)
+    return out
+
+",human,problem-09
+"def solve_15(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 16 == 0:
+            even_values.append(value)
+    return even_values
+
+",ai,problem-15
+"def solve_11(values):
+    picked = []
+    for item in values:
+        even = item % 12 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-11
+"""""""Return all even integers from the input sequence.""""""
+def solve_16(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 17 == 0]
+",ai,problem-16
+"def process_8(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 9 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-08
+"def process_3(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 4 == 0]
+    return filtered_values
+",ai,problem-03
+"def solve_19(values):
+    picked = []
+    for item in values:
+        even = item % 20 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-19
+"def process_12(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 13 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-12
+"def solve_6(items):
+    picked = []
+    for item in items:
+        even = item % 7 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-06
+"def solve_18(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 19 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-18
+"def solve_1(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+",human,problem-01
+"def solve_3(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 4 == 0, values))
+",ai,problem-03
+"def solve_19(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 20 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+
+",human,problem-19
+"def solve_10(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 11 == 0:
+            even_values.append(value)
+    return even_values
+",ai,problem-10
+"def solve_10(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 11 == 0]
+    return filtered_values
+
+",ai,problem-10
+"def solve_14(items):
+    picked = []
+    for item in items:
+        even = item % 15 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-14
+"def solve_13(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+",human,problem-13
+"def solve_20(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 21 == 0, values))
+
+",ai,problem-20
+"def solve_14(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 15 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-14
+"def solve_18(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 19 == 0]
+    return filtered_values
+
+",ai,problem-18
+"def solve_13(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+",human,problem-13
+"def solve_4(values):
+    out = []
+    for value in values:
+        if value % 5 == 0:
+            out.append(value)
+    return out
+",human,problem-04
+"""""""Return all even integers from the input sequence.""""""
+def solve_5(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 6 == 0]
+
+",ai,problem-05
+"def solve_17(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 18 == 0]
+    return filtered_values
+",ai,problem-17
+"def solve_14(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 15 == 0]
+    return filtered_values
+
+",ai,problem-14
+"def solve_15(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 16 == 0, values))
+",ai,problem-15
+"def process_14(values):
+    out = []
+    for value in values:
+        if value % 15 == 0:
+            out.append(value)
+    return out
+",human,problem-14
+"def process_13(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 14 == 0, values))
+",ai,problem-13
+"def solve_3(items):
+    out = []
+    for value in items:
+        if value % 4 == 0:
+            out.append(value)
+    return out
+",human,problem-03
+"def solve_9(items):
+    evens = []
+    i = 0
+    while i < len(items):
+        current = items[i]
+        if current % 10 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-09
+"def process_8(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 9 == 0:
+            even_values.append(value)
+    return even_values
+",ai,problem-08
+"def solve_1(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 2 == 0]
+    return filtered_values
+",ai,problem-01
+"def process_9(values):
+    picked = []
+    for item in values:
+        even = item % 10 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-09
+"def solve_17(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+",human,problem-17
+"""""""Return all even integers from the input sequence.""""""
+def solve_12(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 13 == 0]
+",ai,problem-12
+"def solve_9(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 10 == 0]
+    return filtered_values
+",ai,problem-09
+"def solve_7(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 8 == 0:
+            even_values.append(value)
+    return even_values
+
+",ai,problem-07
+"def solve_6(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+
+",human,problem-06
+"def solve_10(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 11 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-10
+"def solve_10(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 11 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-10
+"def solve_5(items):
+    evens = []
+    i = 0
+    while i < len(items):
+        current = items[i]
+        if current % 6 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-05
+"def solve_10(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+
+",human,problem-10
+"def solve_12(items):
+    """"""Select every element divisible by two.""""""
+    filtered_items = [number for number in items if number % 13 == 0]
+    return filtered_items
+",ai,problem-12
+"""""""Return all even integers from the input sequence.""""""
+def solve_20(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 21 == 0]
+",ai,problem-20
+"def process_16(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 17 == 0:
+            even_values.append(value)
+    return even_values
+",ai,problem-16
+"def solve_3(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 4 == 0, values))
+",ai,problem-03
+"def solve_19(values):
+    picked = []
+    for item in values:
+        even = item % 20 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-19
+"def process_15(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 16 == 0]
+    return filtered_values
+",ai,problem-15
+"def solve_8(values):
+    out = []
+    for value in values:
+        if value % 9 == 0:
+            out.append(value)
+    return out
+",human,problem-08
+"def solve_6(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 7 == 0]
+    return filtered_values
+
+",ai,problem-06
+"def process_16(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 17 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-16
+"""""""Return all even integers from the input sequence.""""""
+def process_2(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 3 == 0]
+",ai,problem-02
+"def solve_5(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 6 == 0]
+    return filtered_values
+",ai,problem-05
+"def process_10(values):
+    out = []
+    for value in values:
+        if value % 11 == 0:
+            out.append(value)
+    return out
+",human,problem-10
+"""""""Return all even integers from the input sequence.""""""
+def solve_8(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 9 == 0]
+",ai,problem-08
+"def solve_15(items):
+    out = []
+    for value in items:
+        if value % 16 == 0:
+            out.append(value)
+    return out
+",human,problem-15
+"def solve_3(values):
+    picked = []
+    for item in values:
+        even = item % 4 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-03
+"def solve_10(items):
+    """"""Return items whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 11 == 0, items))
+",ai,problem-10
+"def solve_4(items):
+    # keep the even items
+    result=[]
+    for n in items:
+        if n%2==0: result += [n]
+    return result
+",human,problem-04
+"""""""Return all even integers from the input sequence.""""""
+def process_14(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 15 == 0]
+",ai,problem-14
+"def process_12(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 13 == 0:
+            even_values.append(value)
+    return even_values
+",ai,problem-12
+"def solve_2(items):
+    picked = []
+    for item in items:
+        even = item % 3 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-02
+"def process_7(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 8 == 0]
+    return filtered_values
+",ai,problem-07
+"""""""Return all even integers from the input sequence.""""""
+def solve_9(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 10 == 0]
+
+",ai,problem-09
+"def solve_10(items):
+    picked = []
+    for item in items:
+        even = item % 11 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-10
+"def solve_3(values):
+    picked = []
+    for item in values:
+        even = item % 4 == 0
+        if even:
+            picked.append(item)
+    return picked
+",human,problem-03
+"""""""Return all even integers from the input sequence.""""""
+def process_10(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 11 == 0]
+",ai,problem-10
+"def process_19(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+",human,problem-19
+"def solve_20(values):
+    out = []
+    for value in values:
+        if value % 21 == 0:
+            out.append(value)
+    return out
+",human,problem-20
+"def solve_9(items):
+    """"""Build and return a list containing even items.""""""
+    even_items = []
+    for value in items:
+        if value % 10 == 0:
+            even_items.append(value)
+    return even_items
+",ai,problem-09
+"def solve_19(items):
+    out = []
+    for value in items:
+        if value % 20 == 0:
+            out.append(value)
+    return out
+",human,problem-19
+"""""""Return all even integers from the input sequence.""""""
+def solve_4(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 5 == 0]
+",ai,problem-04
+"""""""Return all even integers from the input sequence.""""""
+def solve_17(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 18 == 0]
+
+",ai,problem-17
+"def process_9(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 10 == 0, values))
+",ai,problem-09
+"def solve_19(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 20 == 0, values))
+",ai,problem-19
+"def solve_5(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+",human,problem-05
+"def solve_1(items):
+    evens = []
+    i = 0
+    while i < len(items):
+        current = items[i]
+        if current % 2 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-01
+"def solve_8(items):
+    # keep the even items
+    result=[]
+    for n in items:
+        if n%2==0: result += [n]
+    return result
+",human,problem-08
+"def solve_16(values):
+    out = []
+    for value in values:
+        if value % 17 == 0:
+            out.append(value)
+    return out
+",human,problem-16
+"def solve_12(values):
+    out = []
+    for value in values:
+        if value % 13 == 0:
+            out.append(value)
+    return out
+",human,problem-12
+"def solve_6(items):
+    """"""Return items whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 7 == 0, items))
+",ai,problem-06
+"def process_11(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 12 == 0]
+    return filtered_values
+",ai,problem-11
+"def solve_20(items):
+    # keep the even items
+    result=[]
+    for n in items:
+        if n%2==0: result += [n]
+    return result
+",human,problem-20
+"def solve_17(items):
+    """"""Build and return a list containing even items.""""""
+    even_items = []
+    for value in items:
+        if value % 18 == 0:
+            even_items.append(value)
+    return even_items
+",ai,problem-17
+"def solve_6(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 7 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+",human,problem-06
+"def solve_15(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 16 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+
+",human,problem-15
+"def process_20(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 21 == 0:
+            even_values.append(value)
+    return even_values
+",ai,problem-20
+"def solve_16(values):
+    out = []
+    for value in values:
+        if value % 17 == 0:
+            out.append(value)
+    return out
+",human,problem-16
+"def solve_13(values):
+    """"""Select every element divisible by two.""""""
+    filtered_values = [number for number in values if number % 14 == 0]
+    return filtered_values
+",ai,problem-13
+"def solve_6(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 7 == 0:
+            even_values.append(value)
+    return even_values
+",ai,problem-06
+"def solve_6(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 7 == 0:
+            even_values.append(value)
+    return even_values
+",ai,problem-06
+"def solve_3(values):
+    evens = []
+    i = 0
+    while i < len(values):
+        current = values[i]
+        if current % 4 == 0:
+            evens.append(current)
+        i += 1
+    return evens
+
+",human,problem-03
+"def process_1(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 2 == 0, values))
+",ai,problem-01
+"""""""Return all even integers from the input sequence.""""""
+def solve_1(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 2 == 0]
+
+",ai,problem-01
+"def solve_11(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 12 == 0:
+            even_values.append(value)
+    return even_values
+
+",ai,problem-11
+"def solve_16(items):
+    # keep the even items
+    result=[]
+    for n in items:
+        if n%2==0: result += [n]
+    return result
+",human,problem-16
+"def process_3(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+",human,problem-03
+"def solve_14(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 15 == 0:
+            even_values.append(value)
+    return even_values
+",ai,problem-14
+"def solve_18(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+
+",human,problem-18
+"""""""Return all even integers from the input sequence.""""""
+def solve_3(items):
+    """"""Filter items according to their parity.""""""
+    return [value for value in items if value % 4 == 0]
+",ai,problem-03
+"def solve_19(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 20 == 0:
+            even_values.append(value)
+    return even_values
+
+",ai,problem-19
+"""""""Return all even integers from the input sequence.""""""
+def solve_4(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 5 == 0]
+",ai,problem-04
+"""""""Return all even integers from the input sequence.""""""
+def process_6(values):
+    """"""Filter values according to their parity.""""""
+    return [value for value in values if value % 7 == 0]
+",ai,problem-06
+"def process_7(values):
+    # keep the even values
+    result=[]
+    for n in values:
+        if n%2==0: result += [n]
+    return result
+",human,problem-07
+"def solve_8(values):
+    out = []
+    for value in values:
+        if value % 9 == 0:
+            out.append(value)
+    return out
+",human,problem-08
+"def solve_19(values):
+    """"""Return values whose remainder after division by two is zero.""""""
+    return list(filter(lambda item: item % 20 == 0, values))
+",ai,problem-19
+"def solve_1(items):
+    """"""Build and return a list containing even items.""""""
+    even_items = []
+    for value in items:
+        if value % 2 == 0:
+            even_items.append(value)
+    return even_items
+",ai,problem-01
+"def solve_3(values):
+    """"""Build and return a list containing even values.""""""
+    even_values = []
+    for value in values:
+        if value % 4 == 0:
+            even_values.append(value)
+    return even_values
+
+",ai,problem-03
+"def solve_17(values):
+    out = []
+    for value in values:
+        if value % 18 == 0:
+            out.append(value)
+    return out
+
+",human,problem-17

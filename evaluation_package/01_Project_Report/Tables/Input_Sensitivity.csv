@@ -1,0 +1,7 @@
+Experiment,Prediction,AI probability
+original,human,0.0448
+variable naming,ai,0.9983
+comment density,human,0.0863
+formatting,human,0.0176
+structure,ai,0.5442
+unseen problem,human,0.0122

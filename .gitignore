@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+evaluation_package/.build/
+evaluation_package/.chart-data-*/
+CodeTrace_Evaluation_Package/
+.env
+.env.*
+!.env.example

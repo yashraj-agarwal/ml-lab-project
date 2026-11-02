@@ -1,0 +1,139 @@
+{
+  "artifact_metadata": {
+    "schema_version": 2,
+    "python": "3.12.7",
+    "scikit_learn": "1.9.1",
+    "joblib": "1.6.0",
+    "dataset_sha256": "2c02b806bf694a5ab8f4cf99a051dc3e5275b0f182654e19f88700401b11543d"
+  },
+  "selected_model": "Logistic Regression",
+  "selection_metric": "validation F1 (AI as positive class)",
+  "validation_metrics": {
+    "Logistic Regression": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Decision Tree": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Decision Tree": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "test_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "confusion_matrix": [
+    [
+      16,
+      0
+    ],
+    [
+      0,
+      16
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "human",
+    "ai"
+  ],
+  "feature_importance": [
+    {
+      "feature": "structure: code_length",
+      "importance": 1.14729
+    },
+    {
+      "feature": "structure: docstring_count",
+      "importance": 1.03232
+    },
+    {
+      "feature": "structure: average_identifier_length",
+      "importance": 0.95554
+    },
+    {
+      "feature": "structure: average_line_length",
+      "importance": 0.80101
+    },
+    {
+      "feature": "structure: ast_node_count",
+      "importance": 0.44572
+    },
+    {
+      "feature": "structure: token_count",
+      "importance": 0.43145
+    },
+    {
+      "feature": "structure: unique_token_ratio",
+      "importance": 0.38912
+    },
+    {
+      "feature": "structure: loop_count",
+      "importance": 0.36978
+    },
+    {
+      "feature": "structure: conditional_count",
+      "importance": 0.36978
+    },
+    {
+      "feature": "structure: max_nesting_depth",
+      "importance": 0.36978
+    },
+    {
+      "feature": "structure: line_count",
+      "importance": 0.32993
+    },
+    {
+      "feature": "structure: comment_to_code_ratio",
+      "importance": 0.24528
+    }
+  ],
+  "dataset": {
+    "source_rows": 200,
+    "rows": 160,
+    "removed_missing_invalid_blank_or_duplicate_rows": 40,
+    "after_validation_and_duplicate_removal": 160,
+    "class_distribution": {
+      "ai": 80,
+      "human": 80
+    },
+    "problem_groups": 20,
+    "split_sizes": {
+      "train": 96,
+      "validation": 32,
+      "test": 32
+    },
+    "source": "samples.csv"
+  },
+  "limitations": "Demonstration data is synthetic and metrics do not indicate real-world detection performance."
+}

@@ -1,0 +1,13 @@
+test_ast_and_feature_schema (backend.test_pipeline.PipelineChecks.test_ast_and_feature_schema) ... ok
+test_comment_ratio (backend.test_pipeline.PipelineChecks.test_comment_ratio) ... ok
+test_conflicting_labels (backend.test_pipeline.PipelineChecks.test_conflicting_labels) ... ok
+test_group_separation (backend.test_pipeline.PipelineChecks.test_group_separation) ... ok
+test_language_validation (backend.test_pipeline.PipelineChecks.test_language_validation) ... ok
+test_saved_pipeline (backend.test_pipeline.PipelineChecks.test_saved_pipeline) ... ok
+test_submitted_source_not_executed (backend.test_pipeline.PipelineChecks.test_submitted_source_not_executed) ... ok
+test_syntax_validation (backend.test_pipeline.PipelineChecks.test_syntax_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.125s
+
+OK

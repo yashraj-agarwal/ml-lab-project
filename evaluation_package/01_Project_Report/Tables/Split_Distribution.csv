@@ -1,0 +1,4 @@
+Partition,Human,AI,Total
+train,48,48,96
+validation,16,16,32
+test,16,16,32

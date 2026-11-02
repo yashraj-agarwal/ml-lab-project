@@ -1,0 +1,49 @@
+experiment,configuration,prediction,ai_probability,features,accuracy,precision,recall,f1,roc_auc
+original,"def select(values):
+    result = []
+    for value in values:
+        if value % 2 == 0:
+            result.append(value)
+    return result
+",human,0.0448,"{""comment_to_code_ratio"": 0.0, ""average_line_length"": 22.166666666666668, ""average_identifier_length"": 5.7, ""snake_case_ratio"": 1.0, ""camel_case_ratio"": 0.0, ""function_count"": 1, ""loop_count"": 1, ""conditional_count"": 1, ""class_count"": 0, ""exception_count"": 0, ""ast_node_count"": 34, ""max_nesting_depth"": 3, ""docstring_count"": 0, ""code_length"": 139, ""line_count"": 6, ""token_count"": 30, ""unique_token_ratio"": 0.7, ""blank_line_ratio"": 0.0}",,,,,
+variable naming,"def filterEvenNumbers(inputNumbers):
+    filteredNumbers = []
+    for currentNumber in inputNumbers:
+        if currentNumber % 2 == 0:
+            filteredNumbers.append(currentNumber)
+    return filteredNumbers
+",ai,0.9983,"{""comment_to_code_ratio"": 0.0, ""average_line_length"": 34.5, ""average_identifier_length"": 13.1, ""snake_case_ratio"": 0.1, ""camel_case_ratio"": 0.9, ""function_count"": 1, ""loop_count"": 1, ""conditional_count"": 1, ""class_count"": 0, ""exception_count"": 0, ""ast_node_count"": 34, ""max_nesting_depth"": 3, ""docstring_count"": 0, ""code_length"": 213, ""line_count"": 6, ""token_count"": 30, ""unique_token_ratio"": 0.7, ""blank_line_ratio"": 0.0}",,,,,
+comment density,"# Select even values
+def select(values):
+    # Collect matching elements
+    result = []
+    for value in values:
+        if value % 2 == 0:
+            result.append(value)
+    return result
+",human,0.0863,"{""comment_to_code_ratio"": 0.3333333333333333, ""average_line_length"": 23.0, ""average_identifier_length"": 5.7, ""snake_case_ratio"": 1.0, ""camel_case_ratio"": 0.0, ""function_count"": 1, ""loop_count"": 1, ""conditional_count"": 1, ""class_count"": 0, ""exception_count"": 0, ""ast_node_count"": 34, ""max_nesting_depth"": 3, ""docstring_count"": 0, ""code_length"": 192, ""line_count"": 8, ""token_count"": 30, ""unique_token_ratio"": 0.7, ""blank_line_ratio"": 0.0}",,,,,
+formatting,"def select(values):
+  result=[]
+  for value in values:
+    if value % 2 == 0:
+      result.append(value)
+  return result
+",human,0.0176,"{""comment_to_code_ratio"": 0.0, ""average_line_length"": 19.166666666666668, ""average_identifier_length"": 5.7, ""snake_case_ratio"": 1.0, ""camel_case_ratio"": 0.0, ""function_count"": 1, ""loop_count"": 1, ""conditional_count"": 1, ""class_count"": 0, ""exception_count"": 0, ""ast_node_count"": 34, ""max_nesting_depth"": 3, ""docstring_count"": 0, ""code_length"": 121, ""line_count"": 6, ""token_count"": 30, ""unique_token_ratio"": 0.7, ""blank_line_ratio"": 0.0}",,,,,
+structure,"def select(values):
+    return [value for value in values if value % 2 == 0]
+",ai,0.5442,"{""comment_to_code_ratio"": 0.0, ""average_line_length"": 37.5, ""average_identifier_length"": 5.5, ""snake_case_ratio"": 1.0, ""camel_case_ratio"": 0.0, ""function_count"": 1, ""loop_count"": 0, ""conditional_count"": 0, ""class_count"": 0, ""exception_count"": 0, ""ast_node_count"": 21, ""max_nesting_depth"": 1, ""docstring_count"": 0, ""code_length"": 77, ""line_count"": 2, ""token_count"": 20, ""unique_token_ratio"": 0.85, ""blank_line_ratio"": 0.0}",,,,,
+unseen problem,"def factorial(n):
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
+",human,0.0122,"{""comment_to_code_ratio"": 0.0, ""average_line_length"": 19.2, ""average_identifier_length"": 4.0, ""snake_case_ratio"": 1.0, ""camel_case_ratio"": 0.0, ""function_count"": 1, ""loop_count"": 1, ""conditional_count"": 0, ""class_count"": 0, ""exception_count"": 0, ""ast_node_count"": 29, ""max_nesting_depth"": 2, ""docstring_count"": 0, ""code_length"": 101, ""line_count"": 5, ""token_count"": 26, ""unique_token_ratio"": 0.6923076923076923, ""blank_line_ratio"": 0.0}",,,,,
+configuration,all; C=0.01; threshold=0.5,human,0.3208227485262135,,1.0,1.0,1.0,1.0,1.0
+configuration,all; C=1; threshold=0.4,human,0.04484640676098317,,1.0,1.0,1.0,1.0,1.0
+configuration,all; C=1; threshold=0.5,human,0.04484640676098317,,1.0,1.0,1.0,1.0,1.0
+configuration,all; C=1; threshold=0.6,human,0.04484640676098317,,1.0,1.0,1.0,1.0,1.0
+configuration,all; C=1; threshold=0.7,human,0.04484640676098317,,1.0,1.0,1.0,1.0,1.0
+configuration,all; C=100; threshold=0.5,human,0.002184362161190223,,1.0,1.0,1.0,1.0,1.0
+configuration,without lexical; C=1; threshold=0.5,human,0.0420477190476779,,1.0,1.0,1.0,1.0,1.0
+configuration,without stylometric; C=1; threshold=0.5,human,0.029849319102212446,,1.0,1.0,1.0,1.0,1.0
+configuration,without structural; C=1; threshold=0.5,human,0.08008391691374306,,1.0,1.0,1.0,1.0,1.0

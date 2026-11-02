@@ -1,0 +1,13 @@
+Feature,Absolute importance
+structure: code_length,1.14729
+structure: docstring_count,1.03232
+structure: average_identifier_length,0.95554
+structure: average_line_length,0.80101
+structure: ast_node_count,0.44572
+structure: token_count,0.43145
+structure: unique_token_ratio,0.38912
+structure: loop_count,0.36978
+structure: conditional_count,0.36978
+structure: max_nesting_depth,0.36978
+structure: line_count,0.32993
+structure: comment_to_code_ratio,0.24528

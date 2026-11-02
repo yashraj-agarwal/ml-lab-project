@@ -1,0 +1,287 @@
+[
+  {
+    "path": "Backend_Test_Results.txt",
+    "bytes": 871,
+    "sha256": "262ed9ef736538bafed2d779c4429fb70fb8c9d344e88bc6523cd71a8b3ef6b0"
+  },
+  {
+    "path": "Consistency_Check.json",
+    "bytes": 7544,
+    "sha256": "6d46f2deafd5a30ba5d0df88dc0b0fe9e3cc0e96ee454aa780288ad9079be015"
+  },
+  {
+    "path": "Consistency_Check.md",
+    "bytes": 4486,
+    "sha256": "cf4e7e53bc6ffca4b56d0211c9353a1e4d5ace2403d3f42b4bf701baa156e1a4"
+  },
+  {
+    "path": "Frontend_Dependency_Audit.json",
+    "bytes": 385,
+    "sha256": "3c38387ef44a9815e204dfa7862596eb7cfeb0f91346e9883bcdf1ed3410af64"
+  },
+  {
+    "path": "HTTP_Verification.json",
+    "bytes": 2827,
+    "sha256": "d9d074456a2e0684ec20138e1ed0630f0c54e3f07421e5a24f0574b6e7c942df"
+  },
+  {
+    "path": "Open_Information.md",
+    "bytes": 1075,
+    "sha256": "10718f204fe4274ff531f3c4a0ad804c89c0eba34744a476c6eda9716b96aee3"
+  },
+  {
+    "path": "Quality_Control.md",
+    "bytes": 2439,
+    "sha256": "5658d133534b3b46b69eca21676e8a349c55f1e7c6f3a42fcae695c4a7ae1fb7"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4290,
+    "sha256": "7d6ddfc2a3c454a099863493a118cdc10efeaa4eb118968020bd5f73b40dd248"
+  },
+  {
+    "path": "Technical_Inventory.md",
+    "bytes": 7794,
+    "sha256": "4ff0b65581832b606285d5179d75d05a445b58062be4269b1673c746b75056fa"
+  },
+  {
+    "path": "01_Project_Report/IEEE_Template.docx",
+    "bytes": 86221,
+    "sha256": "e319d5c2353e231523b7553560e753f7a4346e192e1ddd87cc013ac3d8528e2e"
+  },
+  {
+    "path": "01_Project_Report/Project_Report.docx",
+    "bytes": 295629,
+    "sha256": "247c029d5862b648aba6c53e7d29d48296c5ae4ae5b2a3b7cd831ef0676f8169"
+  },
+  {
+    "path": "01_Project_Report/Project_Report.md",
+    "bytes": 13524,
+    "sha256": "39fff9100fad319094e78a2864f570f81a89d05f2496802360b7004c05020554"
+  },
+  {
+    "path": "01_Project_Report/Project_Report.pdf",
+    "bytes": 445708,
+    "sha256": "8514fe4e175033ab5c28feec5dd93efcf954b7144d9b66a3e4834e0170f65406"
+  },
+  {
+    "path": "01_Project_Report/Figures/About_Project.png",
+    "bytes": 87680,
+    "sha256": "11c8e4a6d81c0b5bd3100214c6090e5d4c6b0e1bfbdc649ad5c1585d9021c929"
+  },
+  {
+    "path": "01_Project_Report/Figures/Analyze_Interface.png",
+    "bytes": 57585,
+    "sha256": "cd085cfc829f902713588554e1568c825b7ed71ae902adf08a4bd15cf7fb2010"
+  },
+  {
+    "path": "01_Project_Report/Figures/Architecture.png",
+    "bytes": 43674,
+    "sha256": "51b5737263d1dd99745fd2aff755d7d79ee4b26907c6ca9be126b75c93c7fa5b"
+  },
+  {
+    "path": "01_Project_Report/Figures/Confusion_Matrix.png",
+    "bytes": 33272,
+    "sha256": "2aacd4f859151325de252f5433158465b2b43274a35e5c272eba4276b90db20a"
+  },
+  {
+    "path": "01_Project_Report/Figures/Feature_Importance.png",
+    "bytes": 46579,
+    "sha256": "1a6265a97c579451f6e0039e0d6a4b79e0a288c86288611a3a6c0dbb03ca3831"
+  },
+  {
+    "path": "01_Project_Report/Figures/Input_Sensitivity.png",
+    "bytes": 46429,
+    "sha256": "25a8d17d9110e70a5740d593ef8ccc9100ab70051a787fb20df5362ca99301ad"
+  },
+  {
+    "path": "01_Project_Report/Figures/Model_Performance.png",
+    "bytes": 79315,
+    "sha256": "8e26cf4be4348b8a4b6d4136473c4e836a9a56ee0479c391f50587a0e8c37127"
+  },
+  {
+    "path": "01_Project_Report/Figures/Official_MAHE_Logo.png",
+    "bytes": 13783,
+    "sha256": "f83e360b107816ff414171a62496e81b7107b7e58a31b8f7313d4dabf88bac89"
+  },
+  {
+    "path": "01_Project_Report/Figures/Prediction_Result.png",
+    "bytes": 67402,
+    "sha256": "519c5cd00d38e6a3b75a805ab16f9b5d9f8032d57dc124cf18cfd8ff30b868c4"
+  },
+  {
+    "path": "01_Project_Report/Tables/Feature_Importance.csv",
+    "bytes": 469,
+    "sha256": "71b0da1fa7dbd05b750ff16f589b436cc450f10dd425a7946e471081087f9687"
+  },
+  {
+    "path": "01_Project_Report/Tables/Input_Sensitivity.csv",
+    "bytes": 193,
+    "sha256": "8259cc028f698a31aff7f3fbda4b6f53edebdc808ad987a6dece31a81a0e5f3f"
+  },
+  {
+    "path": "01_Project_Report/Tables/Model_Comparison.csv",
+    "bytes": 135,
+    "sha256": "157f298ae07ce870787a80aff7a26b813fd9cc19995add10f3dba0e0c867694a"
+  },
+  {
+    "path": "01_Project_Report/Tables/Split_Distribution.csv",
+    "bytes": 78,
+    "sha256": "7930353e51fff5e3fc4afd65bce16197b4021b8a61d09a41b5a71bbe49145b89"
+  },
+  {
+    "path": "02_Presentation/ML_Mini_Project_Presentation.pptx",
+    "bytes": 217533,
+    "sha256": "4d4ea1e8b9b120c04ca0009971f7fb2b4538fb40aa4b53712987514ca364f742"
+  },
+  {
+    "path": "02_Presentation/Slide_Notes.md",
+    "bytes": 15689,
+    "sha256": "d585d5bfcf42b22d4da4c9d98a6a221827eca2c1fc5a9eba6019d76df2baa802"
+  },
+  {
+    "path": "03_ML_Concepts/ML_Concepts_Explained.docx",
+    "bytes": 61487,
+    "sha256": "601c07b8b88cdd0ddc069e0bf7b385aec5d79f94e444fe3c5ba6bdd739c0df8b"
+  },
+  {
+    "path": "03_ML_Concepts/ML_Concepts_Explained.md",
+    "bytes": 63410,
+    "sha256": "5f1604c868ac711bf9e0f26d7d74418fa00a04d7b0e4281136e2eb17e15c550b"
+  },
+  {
+    "path": "03_ML_Concepts/ML_Concepts_Explained.pdf",
+    "bytes": 406474,
+    "sha256": "1f0aa157f463025feb29f0052f2cda3c1e23ca6ee317271ab818edaabd0d8070"
+  },
+  {
+    "path": "04_Presentation_Script/Member_1_Quick_Revision.md",
+    "bytes": 1651,
+    "sha256": "90da2c95e4726fd02b985adfbb9d737c13ec7db547387a15f56f8bf6eb4e16b3"
+  },
+  {
+    "path": "04_Presentation_Script/Member_1_Quick_Revision.pdf",
+    "bytes": 200177,
+    "sha256": "d5a45d62cc97a5cf847b3e556354e29d9a1cff5255a3b2272cda2027a344580a"
+  },
+  {
+    "path": "04_Presentation_Script/Member_2_Quick_Revision.md",
+    "bytes": 1679,
+    "sha256": "6a93dd2305d89fa867633c61e9234f46634481b5414658e0f09b06d5e66aa475"
+  },
+  {
+    "path": "04_Presentation_Script/Member_2_Quick_Revision.pdf",
+    "bytes": 200388,
+    "sha256": "403e01e67c7f2d79c7ddc801b99bde38c8ee90f2346164e8afc40042bd205b84"
+  },
+  {
+    "path": "04_Presentation_Script/Member_3_Quick_Revision.md",
+    "bytes": 1715,
+    "sha256": "644fa7f54000ee89a818874f45b720f84168115c671e3a68fe00b2ea31f30ea0"
+  },
+  {
+    "path": "04_Presentation_Script/Member_3_Quick_Revision.pdf",
+    "bytes": 193557,
+    "sha256": "100d096224d5a0dbb7f923663a058c63e081e23cde31766e744b0d913b99c321"
+  },
+  {
+    "path": "04_Presentation_Script/Three_Member_Presentation_Script.docx",
+    "bytes": 48893,
+    "sha256": "407425cc80792a72a67a69b5b20427523675c9db282e88f1b3a4783ece5a5455"
+  },
+  {
+    "path": "04_Presentation_Script/Three_Member_Presentation_Script.md",
+    "bytes": 33659,
+    "sha256": "85bb62e435b0426ca8bda1425a0e1dd2c6f46073c4cf4bfc194b833a1a000377"
+  },
+  {
+    "path": "04_Presentation_Script/Three_Member_Presentation_Script.pdf",
+    "bytes": 285759,
+    "sha256": "731a40e608ecafe74728c380515389a38f7715951e34545e95d1044d581b0d61"
+  },
+  {
+    "path": "05_Experiments/Live_Experiments_and_Demonstrations.md",
+    "bytes": 4808,
+    "sha256": "fddd6a73b19bd6b179d36eff61e2058147bca4ba22ec78be74e3963a88a8b983"
+  },
+  {
+    "path": "05_Experiments/configuration_comparisons.csv",
+    "bytes": 4920,
+    "sha256": "167434a3b693f604de3b18d057fb5a1e339bd71b133cb5b4b999727e27cfea9a"
+  },
+  {
+    "path": "05_Experiments/experiment_log.txt",
+    "bytes": 4896,
+    "sha256": "9ae08b3748e448be3ee3fbb769c7139ff440bf41928b5b4e3e657cd3b37055c3"
+  },
+  {
+    "path": "05_Experiments/experiment_results.csv",
+    "bytes": 4785,
+    "sha256": "7b4cab5229199aa8ae767b6b7d1b87afe5e998e1c6af985fe64a9ba60723fe11"
+  },
+  {
+    "path": "05_Experiments/make_charts.py",
+    "bytes": 7322,
+    "sha256": "d616db3c56846e158b088a5bd470a74f43c8112c4f50c47635caa6cf7cc3eaf2"
+  },
+  {
+    "path": "05_Experiments/paired_input_comparisons.csv",
+    "bytes": 3348,
+    "sha256": "e6010daf5aebd5ae3c26aef360564c82e3ec67846e971f34eabb9c12d1a0b136"
+  },
+  {
+    "path": "05_Experiments/requirements.txt",
+    "bytes": 19,
+    "sha256": "be923c642695914a2c78b1fe8cd465496994e45d41c89ae86b5962883f01eb27"
+  },
+  {
+    "path": "05_Experiments/run_experiments.py",
+    "bytes": 4934,
+    "sha256": "bc0eed26ca5af2b6387270aa94c2bd91a15f5b02306106fb7ec94f3b1af0b27e"
+  },
+  {
+    "path": "05_Experiments/technical_inventory.json",
+    "bytes": 5673,
+    "sha256": "edc890af4dc3a2d63f1f0b75dae2aeff56130ed3452eac1ba3b94fa863364e92"
+  },
+  {
+    "path": "05_Experiments/training_log.json",
+    "bytes": 3050,
+    "sha256": "8f96657318720f3a0ac41ff4039b6bcbc02c8eafa26c535a794375f18616357b"
+  },
+  {
+    "path": "05_Experiments/Experiment_Charts/Architecture.svg",
+    "bytes": 37390,
+    "sha256": "f82dbaee018f99167f2c055f48b8f67a57464fccff62e91281565904231ed2aa"
+  },
+  {
+    "path": "05_Experiments/Experiment_Charts/Confusion_Matrix.svg",
+    "bytes": 27799,
+    "sha256": "81fedfc2141beb3b2899cd0b268617509c74a24b524200df21dab80ae5949ac0"
+  },
+  {
+    "path": "05_Experiments/Experiment_Charts/Feature_Importance.svg",
+    "bytes": 42289,
+    "sha256": "4d725eb363d0e42f85dba3046fa2c0321e9488b64c8076963d1e8e2710070c9d"
+  },
+  {
+    "path": "05_Experiments/Experiment_Charts/Input_Sensitivity.svg",
+    "bytes": 39681,
+    "sha256": "d9c2323ba716180840d46fdbed69266cbf6388ed5fcf298360a04705d7923a8c"
+  },
+  {
+    "path": "06_References/Literature_Comparison.csv",
+    "bytes": 2274,
+    "sha256": "a26b1dc18c91b5df02ab28c2db8a2492287b3d02ae1bd60fabd809faa8606f58"
+  },
+  {
+    "path": "06_References/Logo_Source.txt",
+    "bytes": 117,
+    "sha256": "375fac9df44216ab7045f5d80834cf2bd4db6dbb903e3fb26a3bfed19cd864b6"
+  },
+  {
+    "path": "06_References/Verified_References.md",
+    "bytes": 3173,
+    "sha256": "6a5425d0e5cc5c2a73cddb16e94099b59e2b0bda0ba5b7a00b71e12da4e02fd5"
+  }
+]

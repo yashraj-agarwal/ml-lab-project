@@ -1,0 +1,121 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "endpoint": "/api/health",
+      "method": "GET",
+      "expected_status": 200,
+      "actual_status": 200
+    },
+    {
+      "endpoint": "/api/models",
+      "method": "GET",
+      "expected_status": 200,
+      "actual_status": 200
+    },
+    {
+      "endpoint": "/api/metrics",
+      "method": "GET",
+      "expected_status": 200,
+      "actual_status": 200
+    },
+    {
+      "endpoint": "/api/analyze",
+      "method": "POST",
+      "expected_status": 200,
+      "actual_status": 200
+    },
+    {
+      "endpoint": "/api/analyze",
+      "method": "POST",
+      "expected_status": 422,
+      "actual_status": 422
+    },
+    {
+      "endpoint": "/api/analyze",
+      "method": "POST",
+      "expected_status": 422,
+      "actual_status": 422
+    },
+    {
+      "endpoint": "/api/analyze",
+      "method": "POST",
+      "expected_status": 422,
+      "actual_status": 422
+    },
+    {
+      "endpoint": "/api/analyze",
+      "method": "POST",
+      "expected_status": 422,
+      "actual_status": 422
+    },
+    {
+      "endpoint": "/api/analyze",
+      "method": "POST",
+      "expected_status": 422,
+      "actual_status": 422
+    },
+    {
+      "endpoint": "/api/analyze",
+      "method": "POST",
+      "expected_status": 200,
+      "actual_status": 200
+    },
+    {
+      "endpoint": "/api/analyze",
+      "method": "OPTIONS",
+      "expected_status": 200,
+      "actual_status": 200
+    }
+  ],
+  "frontend_http": 200,
+  "saved_model_response": {
+    "prediction": "human",
+    "confidence": 0.9891,
+    "ai_probability": 0.0109,
+    "model": "Logistic Regression",
+    "features": {
+      "comment_to_code_ratio": 0.0,
+      "average_line_length": 24.0,
+      "average_identifier_length": 1.8333333333333333,
+      "snake_case_ratio": 1.0,
+      "camel_case_ratio": 0.0,
+      "function_count": 1,
+      "loop_count": 0,
+      "conditional_count": 0,
+      "class_count": 0,
+      "exception_count": 0,
+      "ast_node_count": 18,
+      "max_nesting_depth": 1,
+      "docstring_count": 0,
+      "code_length": 49,
+      "line_count": 2,
+      "token_count": 18,
+      "unique_token_ratio": 0.8333333333333334,
+      "blank_line_ratio": 0.0
+    },
+    "explanation": [
+      {
+        "name": "Comment/code ratio",
+        "value": 0.0
+      },
+      {
+        "name": "Average identifier length",
+        "value": 1.83
+      },
+      {
+        "name": "Functions / loops / conditions",
+        "value": "1 / 0 / 0"
+      },
+      {
+        "name": "AST nodes / nesting depth",
+        "value": "18 / 1"
+      },
+      {
+        "name": "Tokens / unique-token ratio",
+        "value": "18 / 0.83"
+      }
+    ]
+  },
+  "cors_origin": "http://127.0.0.1:5173"
+}
